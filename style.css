@@ -1,0 +1,31 @@
+/* Elements With Class Selector */
+/*p and clas="big */
+p.big {
+    font-size: 20px;
+    text-align: center;
+    color: #eb8484;
+} 
+
+/*Child Selector*/
+/*every p that is a direct child of article */
+article > p {
+    color: blue;
+} 
+
+/*Decendant Selector*/
+/*evey p tat is inside (at any level of div)*/
+div p{
+    color: rgb(194, 54, 101);
+}
+
+/*Not Limited To Element Selectors */
+
+/*every p that is inside (at any level) an element with class="colored"*/
+.colored p {
+    color: rgb(203, 231, 45);
+}
+
+/*every element with class="colored" that is direct child of article element*/
+article > .colored {
+    color: coral;
+}
