@@ -29,3 +29,64 @@ div p{
 article > .colored {
     color: coral;
 }
+
+
+
+/*Psedudo-Class Selector*/
+/* selector:pseudo-class {
+
+}*/
+/*
+:link //
+:visited //
+:hover // 
+:active //
+:nth-child() //   */
+
+header li {
+    list-style: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+    background-color: rgb(145, 189, 145);
+    border: 1px solid rgb(182, 62, 146);
+    color: black;
+    display: block; /*it changes the block*/
+    width: 200px;
+    text-align: center;
+    margin-bottom: 2.4px;
+}
+a:hover, a:active {
+    background-color: pink;
+    color: rgb(179, 94, 10);
+}
+header li:nth-child(3) {
+    font-size: 24px;
+}
+section div:nth-child(odd) {
+    background-color: rgb(209, 185, 185);
+}
+section div:nth-child(even) {
+    background-color: antiquewhite;
+}
+section div:nth-child(3):hover {
+    background-color: rgb(121, 121, 190);
+    cursor: pointer;
+}
+/*Pseudo-class selectors ae very powerful*/
+/*make sure your selector is still readeble*/
+/*simple/readable > complicated/tricky*/
+
+
+
+/*Style Placement*/
+h2 {
+    color:  maroon;
+}
+body {
+    background-color: rgba(241, 241, 241, 0.815);
+    font-size: 110%;
+}
+/*placing styles inline is great for quick testing */
+/*real sites mostly use external styles */
+/*head styles are usually there t ooverried external ones */
