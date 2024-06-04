@@ -84,9 +84,58 @@ h2 {
     color:  maroon;
 }
 body {
-    background-color: rgba(241, 241, 241, 0.815);
+    background-color: rgba(226, 226, 226, 0.815);
     font-size: 110%;
 }
 /*placing styles inline is great for quick testing */
 /*real sites mostly use external styles */
 /*head styles are usually there t ooverried external ones */
+
+
+
+
+
+
+/*Conflict Resolution*/
+/*Some Concepts*/
+/*
+Origin
+Merge
+Inheritance
+Specificity
+*/
+
+/*ORIGIN*/
+/* Origin Precedence (WHEN IN CONFLICT) */
+/*Last Declaration Wins */
+/* Origin Precedence (WHEN NO CONFLICT) */
+/*Declaration Merge */
+
+/*INHERITENCE*/
+
+
+
+
+/*BOX MODEL*/
+
+* {
+    box-sizing: border-box; /*use this better*/
+    /*select every elemnt on page appy*/
+}
+
+#box {
+    background-color: rgb(182, 182, 228);
+    padding:  20px 10px 20px 10px;
+    border: 2px solid red;
+    margin: 40px;
+    width: 700px;
+    height: 100px;
+    border-radius: 6px;
+    overflow: auto; /*make a scroll bar*/
+}
+#box-content {
+    background-color: blueviolet;
+}
+h1 {
+    margin-bottom: 30px;
+}
