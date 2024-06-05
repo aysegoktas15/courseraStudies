@@ -1,0 +1,60 @@
+/* STATIC POSITIONING
+
+Normal document flow
+Default for all,except html. 
+*/
+
+
+/* RELATIVE POSITIONING
+
+Elements is positioned relative to its position in normal document flow 
+--top
+--bottom
+--left
+--right
+Elements is not taken out of normal document flow 
+*/
+
+
+/* ABSOLUTE POSITIONING
+
+All offset (top, bottom, left, right) are relative to the position of the nearest ancestor which has positioning set on it,other than static.
+Elements is taken out of normal document flow 
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-bottom: 15px;
+}
+
+div#container {
+    background-color: #ced6d6;
+}
+p {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+#p1 {
+    /*place is still occupied*/
+    background-color: pink;
+    position: relative;
+    top: 65px;
+    left: 65px;
+}
+#p2 {
+    background-color: rgb(50, 180, 100);
+}
+#p3 {
+    background-color: rgb(121, 38, 52);
+}
+#p4 {
+    background-color: rgb(220, 253, 99);
+}
+
