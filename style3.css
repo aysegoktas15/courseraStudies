@@ -58,3 +58,9 @@ p {
     background-color: rgb(220, 253, 99);
 }
 
+/*
+--Static positioning is defaul for all elements ,excet html
+--Relative positioning offsets the element relative to its normal document flow position
+--absolute positionin is relative to closest ancestor which has positioning set to non-static value
+--offsetting the relative container element offsets its contents as well
+*/
