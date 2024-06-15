@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../bootstrap-5.3.3/js"
+		},
+		{
+			"path": "../../../bootstrap-5.3.3/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "courseraStudies_README"
+	}
+}

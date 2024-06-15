@@ -1,0 +1,8 @@
+.row {
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.row {
+    border: 4px solid rgb(202, 184, 184);
+    background-color: pink;
+}
