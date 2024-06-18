@@ -11,6 +11,7 @@ p.big {
 article > p {
     color: blue;
 } 
+/*******************************/
 
 /*Decendant Selector*/
 /*evey p tat is inside (at any level of div)*/
